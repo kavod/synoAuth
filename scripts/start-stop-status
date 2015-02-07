@@ -1,0 +1,23 @@
+#!/bin/sh
+          
+case $1 in                                             
+        start)                                                   
+                exit 1
+                ;;
+        stop)
+                exit 1
+                ;;                        
+        status)                            
+                exit 1
+                ;;                 
+        log)                                                             
+                exit 0
+                ;;                                  
+        *)                   
+                echo "Usage: $0 {start|stop|status|log}" >&2
+                exit 1                     
+                ;;
+esac                                        
+ 
+
+

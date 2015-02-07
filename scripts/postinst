@@ -1,0 +1,10 @@
+#!/bin/sh
+
+# Chown
+chown -R admin.users ${SYNOPKG_PKGDEST}
+
+# Link application/desktop redirection
+ln -s "${SYNOPKG_PKGDEST}/application" "/usr/syno/synoman/webman/3rdparty/synoAuth"
+
+exit 0
+

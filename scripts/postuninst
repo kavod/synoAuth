@@ -1,0 +1,9 @@
+#!/bin/sh
+
+# Unink desktop redirection
+if [ -d "/usr/syno/synoman/webman/3rdparty/synoAuth" ]; then
+		rm "/usr/syno/synoman/webman/3rdparty/synoAuth"
+fi
+
+exit 0
+

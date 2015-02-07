@@ -1,0 +1,13 @@
+package="synoAuth"
+version="0.2"
+description="Synology Authentification PHP API"
+support_url="https://github.com/kavod/synoAuth"
+description_en="Synology Authentification PHP API"
+description_fr="API PHP d'authentification pour Synology"
+displayname="synoAuth"
+maintainer="Brice GRICHY"
+maintainer_url="https://github.com/kavod"
+checksum="f4ebe7c7cf87dd58b59b9d3f1a3d281d"
+firmware="4.2-3160"
+startable="no"
+

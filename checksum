@@ -1,0 +1,5 @@
+#!/bin/sh
+MD5=`md5sum package.tgz |cut -d" " -f1`
+SEDSTRING="s/\(^checksum=\"\).*\(\"$\)/\1${MD5}\2/g"
+
+sed -i $SEDSTRING INFO
