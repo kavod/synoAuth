@@ -28,3 +28,6 @@ Since PHP API needs synoToken, synoAuth provides a javascript class in order to 
 This class also provide the following customEvents in order to notify $(document) about session verification process:
 - ```synoToken``` event is raised when synoToken determination is done
 - ```login``` event is raised when userdata and usergroups determination is done
+
+## Usage example
+A simple script is available in ```/webman/3rdparty/synoAuth/test.php```
