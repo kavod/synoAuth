@@ -3,6 +3,8 @@
 # Chown
 chown -R admin.users ${SYNOPKG_PKGDEST}
 
+chmod 777 /volume1/@appstore/synoAuth/application/index.cgi
+
 # Link application/desktop redirection
 ln -s "${SYNOPKG_PKGDEST}/application" "/usr/syno/synoman/webman/3rdparty/synoAuth"
 
