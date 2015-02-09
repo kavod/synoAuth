@@ -10,10 +10,10 @@ This project provides (for moment):
 - The javascript uses JQuery but call the google hosted library (neither required localy nor included in package) 
 
 ## Setup
-Go to [a Releases](https://github.com/kavod/synoAuth/releases) to get the lasted synoAuth.spk
+Go to [a Releases](https://github.com/kavod/synoAuth/releases) to get the latest synoAuth.spk
 Use package Center of DSM in order to install
 You may have to adapt the "Trust Level" to "Any publisher" since this package is not yet "validated" by Synology Inc.
-It's done
+It's done!
 
 ## Build from sources
 Just execute ```make``` in the folder in order to build ```synoAuth.spk```
@@ -30,4 +30,4 @@ This class also provide the following customEvents in order to notify $(document
 - ```login``` event is raised when userdata and usergroups determination is done
 
 ## Usage example
-A simple script is available in ```/webman/3rdparty/synoAuth/test.php```
+A simple script is available in ```/webman/3rdparty/synoAuth/test.html```
