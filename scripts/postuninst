@@ -1,6 +1,6 @@
 #!/bin/sh
 
-# Unink desktop redirection
+# Unlink desktop redirection
 if [ -d "/usr/syno/synoman/webman/3rdparty/synoAuth" ]; then
 		rm "/usr/syno/synoman/webman/3rdparty/synoAuth"
 fi

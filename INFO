@@ -9,5 +9,5 @@ maintainer="Brice GRICHY"
 maintainer_url="https://github.com/kavod"
 checksum="332744d0e8cac22fa3c953b2cf3b35aa"
 firmware="4.2-3160"
-startable="no"
+startable="yes"
 

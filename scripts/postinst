@@ -1,11 +1,11 @@
 #!/bin/sh
 
+#If updated from previous version
+rm "/usr/syno/synoman/webman/3rdparty/synoAuth" 1>&2
+
 # Chown
 chown -R root.root ${SYNOPKG_PKGDEST}
 chmod 500 /volume1/@appstore/synoAuth/application/index.cgi
-
-# Link application/desktop redirection
-ln -s "${SYNOPKG_PKGDEST}/application" "/usr/syno/synoman/webman/3rdparty/synoAuth"
 
 exit 0
 

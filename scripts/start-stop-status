@@ -1,14 +1,29 @@
 #!/bin/sh
+
+DIRPATH="${SYNOPKG_PKGDEST}/application"
+LINKPATH="/usr/syno/synoman/webman/3rdparty/synoAuth"
           
 case $1 in                                             
         start)                                                   
-                exit 1
+                # Link application/desktop redirection
+				ln -s "${DIRPATH}" "${LINKPATH}"
+				exit 0
                 ;;
         stop)
-                exit 1
+				# Unlink application/desktop redirection
+				rm "${LINKPATH}"
+                exit 0
                 ;;                        
         status)                            
-                exit 1
+                if [ -e "${LINKPATH}" ]
+				then
+					echo "synoAuth is running..."
+					exit 0
+				else
+					echo "synoAuth is shutdown..."
+					exit 1
+				fi
+				exit 1
                 ;;                 
         log)                                                             
                 exit 0
